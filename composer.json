@@ -1,0 +1,20 @@
+{
+    "name": "Kvasina/Ball",
+    "type": "libary",
+    "authors": [
+        {
+            "name": "mariokvasina",
+            "email": "mario.kvasina@htl.rennweg.at"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Kvasina\\ball\\": "src/"
+        },
+
+        "require": {
+            "typo3fluid/fluid": "^2.4"
+        }
+    }
+}
+
